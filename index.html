@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="login-div">
+        <div class="logo"></div>
+        <div class="title">Amir.Mhrp</div>
+        <div class="fields">
+            <div class="username">
+                <svg class="svg-icon" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 20V19C5 15.134 8.13401 12 12 12V12C15.866 12 19 15.134 19 19V20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 12C14.2091 12 16 10.2091 16 8C16 5.79086 14.2091 4 12 4C9.79086 4 8 5.79086 8 8C8 10.2091 9.79086 12 12 12Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>                    
+                <input type="username" required class="user-input" placeholder="Enter Email">
+            </div>
+            <span class="username-msg"></span>
+            <div class="password">
+                <svg class="svg-icon" width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 12C14 14.2091 15.7909 16 18 16C20.2091 16 22 14.2091 22 12C22 9.79086 20.2091 8 18 8C15.7909 8 14 9.79086 14 12ZM14 12H2V15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 12V15" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg> 
+                <input type="password" class="pass-input" id="pass" required placeholder="Password">
+                        <span class="show">Show</span>     
+            </div>
+            <span class="password-msg"></span>
+        </div>
+        <div class="btn">
+            <button class="login-button signin-button"><span class="sp-btn">Login</span><i></i></button>
+        </div>
+        <span class="signin-status"></span>
+        <div class="link">
+            <a href="#">Forget Password</a> or <a href="#">Sign up</a>
+        </div>
+    </div>
+
+<script src="./main.js"></script>
+</body>
+</html>
